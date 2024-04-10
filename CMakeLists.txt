@@ -62,6 +62,10 @@ ament_export_dependencies(
 
 if(NOT ${${LIB_NAME_FULL}_FOUND})
   ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/${PROJECT_NAME}.dsv.in")
+  # Create a dummy .sh file needed for ament_package to source the .dsv file.
+  # See https://github.com/ament/ament_package/issues/145
+  file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.sh "# Dummy .sh file needed for .dsv file to be sourced.")
+  ament_environment_hooks("${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.sh")
 endif()
 
 # The goal is to support versionless package names once the user has found the

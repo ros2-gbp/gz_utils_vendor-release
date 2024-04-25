@@ -2,13 +2,9 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.0 (2024-04-23)
+0.0.4 (2024-04-25)
 ------------------
-* Use an alias target for the root library (`#3 <https://github.com/gazebo-release/gz_utils_vendor/issues/3>`_)
-  Without this patch, doing `find_package(gz-utils)` (or any vendor
-  package) multiple times in a single CMakeLists file fails with an
-  error indicating that cmake cannot create the imported target
-  because another target with the same name already exists.
+* Use an alias target for root library
 * Contributors: Addisu Z. Taddese
 
 0.0.3 (2024-04-10)

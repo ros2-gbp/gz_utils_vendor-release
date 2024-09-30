@@ -1,0 +1,12 @@
+Source: ros-rolling-gz-utils-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-copyright <!nocheck>, ros-rolling-ament-cmake-core, ros-rolling-ament-cmake-lint-cmake <!nocheck>, ros-rolling-ament-cmake-test, ros-rolling-ament-cmake-vendor-package, ros-rolling-ament-cmake-xmllint <!nocheck>, ros-rolling-gz-cmake-vendor, ros-rolling-spdlog-vendor, ros-rolling-ros-workspace
+Homepage: https://github.com/gazebosim/gz-utils
+Standards-Version: 3.9.2
+
+Package: ros-rolling-gz-utils-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-gz-cmake-vendor, ros-rolling-spdlog-vendor, ros-rolling-ros-workspace
+Description: Vendor package for: gz-utils3 3.0.0 Gazebo Utils : Classes and functions for robot applications

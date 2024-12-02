@@ -2,6 +2,11 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2024-12-02)
+------------------
+* Bump version to 3.1.0 (`#8 <https://github.com/gazebo-release/gz_utils_vendor/issues/8>`_)
+* Contributors: Michael Carroll
+
 0.2.0 (2024-09-30)
 ------------------
 * Bump version to 3.0.0 (`#7 <https://github.com/gazebo-release/gz_utils_vendor/issues/7>`_)

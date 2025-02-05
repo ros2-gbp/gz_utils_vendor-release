@@ -2,6 +2,11 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.5 (2025-02-05)
+------------------
+* Bump version to 2.2.1 (`#9 <https://github.com/gazebo-release/gz_utils_vendor/issues/9>`_)
+* Contributors: Addisu Z. Taddese
+
 0.0.4 (2024-04-25)
 ------------------
 * Use an alias target for root library

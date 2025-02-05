@@ -1,3 +1,26 @@
+## gz_utils_vendor (jazzy) - 0.0.5-1
+
+The packages in the `gz_utils_vendor` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy gz_utils_vendor` on `Wed, 05 Feb 2025 16:39:10 -0000`
+
+The `gz_utils_vendor` package was released.
+
+Version of package(s) in repository `gz_utils_vendor`:
+
+- upstream repository: https://github.com/gazebo-release/gz_utils_vendor.git
+- release repository: https://github.com/ros2-gbp/gz_utils_vendor-release.git
+- rosdistro version: `0.0.4-1`
+- old version: `0.0.4-1`
+- new version: `0.0.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## gz_utils_vendor (rolling) - 0.2.1-1
 
 The packages in the `gz_utils_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling gz_utils_vendor` on `Mon, 02 Dec 2024 22:54:43 -0000`

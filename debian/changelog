@@ -1,0 +1,31 @@
+ros-jazzy-gz-utils-vendor (0.0.5-1noble) noble; urgency=high
+
+  * Bump version to 2.2.1 (#9 <https://github.com/gazebo-release/gz_utils_vendor/issues/9>)
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 05 Feb 2025 06:00:00 -0000
+
+ros-jazzy-gz-utils-vendor (0.0.4-1noble) noble; urgency=high
+
+  * Use an alias target for root library
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 25 Apr 2024 05:00:00 -0000
+
+ros-jazzy-gz-utils-vendor (0.0.3-1noble) noble; urgency=high
+
+  * Add support for the <pkg>::<pkg> and <pkg>::all targets, fix sourcing of dsv files
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 10 Apr 2024 05:00:00 -0000
+
+ros-jazzy-gz-utils-vendor (0.0.2-1noble) noble; urgency=high
+
+  * Require calling find_package on the underlying package (#2 <https://github.com/gazebo-release/gz_utils_vendor/issues/2>)
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_utils_vendor/issues/1>)
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 28 Mar 2024 05:00:00 -0000
+
+

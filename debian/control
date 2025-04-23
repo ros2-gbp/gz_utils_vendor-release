@@ -1,0 +1,12 @@
+Source: ros-kilted-gz-utils-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-kilted-ament-cmake-copyright <!nocheck>, ros-kilted-ament-cmake-core, ros-kilted-ament-cmake-lint-cmake <!nocheck>, ros-kilted-ament-cmake-test, ros-kilted-ament-cmake-vendor-package, ros-kilted-ament-cmake-xmllint <!nocheck>, ros-kilted-gz-cmake-vendor, ros-kilted-spdlog-vendor, ros-kilted-ros-workspace
+Homepage: https://github.com/gazebosim/gz-utils
+Standards-Version: 3.9.2
+
+Package: ros-kilted-gz-utils-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-gz-cmake-vendor, ros-kilted-spdlog-vendor, ros-kilted-ros-workspace
+Description: Vendor package for: gz-utils3 3.1.1 Gazebo Utils : Classes and functions for robot applications

@@ -1,0 +1,68 @@
+ros-rolling-gz-utils-vendor (0.3.0-1noble) noble; urgency=high
+
+
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 28 Apr 2025 05:00:00 -0000
+
+ros-rolling-gz-utils-vendor (0.2.2-1noble) noble; urgency=high
+
+  * Bump version to 3.1.1 (#10 <https://github.com/gazebo-release/gz_utils_vendor/issues/10>)
+  * Contributors: Carlos Agüero
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 19 Feb 2025 06:00:00 -0000
+
+ros-rolling-gz-utils-vendor (0.2.1-1noble) noble; urgency=high
+
+  * Bump version to 3.1.0 (#8 <https://github.com/gazebo-release/gz_utils_vendor/issues/8>)
+  * Contributors: Michael Carroll
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 02 Dec 2024 06:00:00 -0000
+
+ros-rolling-gz-utils-vendor (0.2.0-1noble) noble; urgency=high
+
+  * Bump version to 3.0.0 (#7 <https://github.com/gazebo-release/gz_utils_vendor/issues/7>)
+  * Add in a dependency on spdlog_vendor. (#6 <https://github.com/gazebo-release/gz_utils_vendor/issues/6>)
+    * Add in a dependency on spdlog_vendor.
+    That way when building on e.g. Windows, the paths to
+    spdlog will be setup properly before trying to build this
+    vendor package.
+    * Also remove the spdlog dependency.
+    That's because we will just depend on the vendor package to
+    provide that dependency for us as necessary.
+    ---------
+  * Remove the BUILD_DOCS cmake argument. (#5 <https://github.com/gazebo-release/gz_utils_vendor/issues/5>)
+    It is apparently deprecated in newer Gazebo.
+  * Apply prerelease suffix (#4 <https://github.com/gazebo-release/gz_utils_vendor/issues/4>)
+  * Upgrade to Ionic
+  * Contributors: Addisu Z. Taddese, Chris Lalancette
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Mon, 30 Sep 2024 05:00:00 -0000
+
+ros-rolling-gz-utils-vendor (0.1.0-1noble) noble; urgency=high
+
+  * Use an alias target for the root library (#3 <https://github.com/gazebo-release/gz_utils_vendor/issues/3>)
+    Without this patch, doing find_package(gz-utils) (or any vendor
+    package) multiple times in a single CMakeLists file fails with an
+    error indicating that cmake cannot create the imported target
+    because another target with the same name already exists.
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Tue, 23 Apr 2024 05:00:00 -0000
+
+ros-rolling-gz-utils-vendor (0.0.3-1noble) noble; urgency=high
+
+  * Add support for the <pkg>::<pkg> and <pkg>::all targets, fix sourcing of dsv files
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Wed, 10 Apr 2024 05:00:00 -0000
+
+ros-rolling-gz-utils-vendor (0.0.2-1noble) noble; urgency=high
+
+  * Require calling find_package on the underlying package (#2 <https://github.com/gazebo-release/gz_utils_vendor/issues/2>)
+  * Fix linter (#1 <https://github.com/gazebo-release/gz_utils_vendor/issues/1>)
+  * Initial import
+  * Contributors: Addisu Z. Taddese
+
+ -- Addisu Z. Taddese <addisuzt@intrinsic.ai>  Thu, 28 Mar 2024 05:00:00 -0000
+
+

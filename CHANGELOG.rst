@@ -2,6 +2,28 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.0 (2025-09-08)
+------------------
+* Jetty support: bump to 4.0.0, fix package names (`#11 <https://github.com/gazebo-release/gz_utils_vendor/issues/11>`_)
+  * Jetty support: bump to 4.0.0, fix package names
+  Major version numbers have been removed from package
+  names in Gazebo Jetty, so extra cmake config files are
+  no longer needed.
+  * Add option VENDOR_FROM_LIB_VCS_REF
+  This allows vendoring from a specified vcs ref instead
+  of the hard-coded tag. When this option is set to true,
+  a branch, tag, or commit can be specified in the
+  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
+  vendoring will use main.
+  * remove unused cmake config file
+  * use lowercase to fix linter complaint
+  * Add dependency on cli11
+  * 4.0.0~pre1
+  * Use vendored version of CLI11
+  ---------
+  Co-authored-by: Addisu Z. Taddese <addisu@openrobotics.org>
+* Contributors: Steve Peters
+
 0.3.0 (2025-04-28)
 ------------------
 

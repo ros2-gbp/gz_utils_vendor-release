@@ -2,6 +2,12 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.1 (2025-09-29)
+------------------
+* Bump version to 4.0.0 (`#12 <https://github.com/gazebo-release/gz_utils_vendor/issues/12>`_)
+* Add dsv for PYTHONPATH for Jetty packages (`#13 <https://github.com/gazebo-release/gz_utils_vendor/issues/13>`_)
+* Contributors: Addisu Z. Taddese, Steve Peters
+
 0.4.0 (2025-09-08)
 ------------------
 * Jetty support: bump to 4.0.0, fix package names (`#11 <https://github.com/gazebo-release/gz_utils_vendor/issues/11>`_)

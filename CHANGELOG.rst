@@ -2,6 +2,9 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.0 (2026-05-14)
+------------------
+
 0.4.1 (2025-09-29)
 ------------------
 * Bump version to 4.0.0 (`#12 <https://github.com/gazebo-release/gz_utils_vendor/issues/12>`_)

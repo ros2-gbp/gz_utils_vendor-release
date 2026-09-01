@@ -2,41 +2,10 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.5.1 (2026-08-25)
+0.3.1 (2026-08-31)
 ------------------
-* Upgrade to Rotary prerelease (`#14 <https://github.com/gazebo-release/gz_utils_vendor/issues/14>`_)
+* Enable Python bindings (`#15 <https://github.com/gazebo-release/gz_utils_vendor/issues/15>`_)
 * Contributors: Addisu Z. Taddese
-
-0.5.0 (2026-05-14)
-------------------
-
-0.4.1 (2025-09-29)
-------------------
-* Bump version to 4.0.0 (`#12 <https://github.com/gazebo-release/gz_utils_vendor/issues/12>`_)
-* Add dsv for PYTHONPATH for Jetty packages (`#13 <https://github.com/gazebo-release/gz_utils_vendor/issues/13>`_)
-* Contributors: Addisu Z. Taddese, Steve Peters
-
-0.4.0 (2025-09-08)
-------------------
-* Jetty support: bump to 4.0.0, fix package names (`#11 <https://github.com/gazebo-release/gz_utils_vendor/issues/11>`_)
-  * Jetty support: bump to 4.0.0, fix package names
-  Major version numbers have been removed from package
-  names in Gazebo Jetty, so extra cmake config files are
-  no longer needed.
-  * Add option VENDOR_FROM_LIB_VCS_REF
-  This allows vendoring from a specified vcs ref instead
-  of the hard-coded tag. When this option is set to true,
-  a branch, tag, or commit can be specified in the
-  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
-  vendoring will use main.
-  * remove unused cmake config file
-  * use lowercase to fix linter complaint
-  * Add dependency on cli11
-  * 4.0.0~pre1
-  * Use vendored version of CLI11
-  ---------
-  Co-authored-by: Addisu Z. Taddese <addisu@openrobotics.org>
-* Contributors: Steve Peters
 
 0.3.0 (2025-04-28)
 ------------------

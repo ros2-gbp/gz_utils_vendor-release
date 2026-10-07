@@ -2,6 +2,11 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.2 (2026-10-06)
+------------------
+* Bump version to 5.0.0~pre2 (`#20 <https://github.com/gazebo-release/gz_utils_vendor/issues/20>`_)
+* Contributors: Addisu Z. Taddese
+
 0.5.1 (2026-08-25)
 ------------------
 * Upgrade to Rotary prerelease (`#14 <https://github.com/gazebo-release/gz_utils_vendor/issues/14>`_)

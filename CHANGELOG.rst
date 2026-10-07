@@ -2,19 +2,46 @@
 Changelog for package gz_utils_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.2 (2026-09-04)
+0.5.2 (2026-10-06)
 ------------------
-* Revert "Enable Python bindings (`#15 <https://github.com/gazebo-release/gz_utils_vendor/issues/15>`_)" (`#17 <https://github.com/gazebo-release/gz_utils_vendor/issues/17>`_)
-  * Revert "Enable Python bindings (`#15 <https://github.com/gazebo-release/gz_utils_vendor/issues/15>`_)"
-  This reverts commit cccee2847624452654c7fa580e35e1e7f0fea5fc.
-  * Rerun gz_vendor
-  ---------
+* Bump version to 5.0.0~pre2 (`#20 <https://github.com/gazebo-release/gz_utils_vendor/issues/20>`_)
 * Contributors: Addisu Z. Taddese
 
-0.3.1 (2026-08-31)
+0.5.1 (2026-08-25)
 ------------------
-* Enable Python bindings (`#15 <https://github.com/gazebo-release/gz_utils_vendor/issues/15>`_)
+* Upgrade to Rotary prerelease (`#14 <https://github.com/gazebo-release/gz_utils_vendor/issues/14>`_)
 * Contributors: Addisu Z. Taddese
+
+0.5.0 (2026-05-14)
+------------------
+
+0.4.1 (2025-09-29)
+------------------
+* Bump version to 4.0.0 (`#12 <https://github.com/gazebo-release/gz_utils_vendor/issues/12>`_)
+* Add dsv for PYTHONPATH for Jetty packages (`#13 <https://github.com/gazebo-release/gz_utils_vendor/issues/13>`_)
+* Contributors: Addisu Z. Taddese, Steve Peters
+
+0.4.0 (2025-09-08)
+------------------
+* Jetty support: bump to 4.0.0, fix package names (`#11 <https://github.com/gazebo-release/gz_utils_vendor/issues/11>`_)
+  * Jetty support: bump to 4.0.0, fix package names
+  Major version numbers have been removed from package
+  names in Gazebo Jetty, so extra cmake config files are
+  no longer needed.
+  * Add option VENDOR_FROM_LIB_VCS_REF
+  This allows vendoring from a specified vcs ref instead
+  of the hard-coded tag. When this option is set to true,
+  a branch, tag, or commit can be specified in the
+  LIB_VCS_REF variable. If LIB_VCS_REF is unspecified,
+  vendoring will use main.
+  * remove unused cmake config file
+  * use lowercase to fix linter complaint
+  * Add dependency on cli11
+  * 4.0.0~pre1
+  * Use vendored version of CLI11
+  ---------
+  Co-authored-by: Addisu Z. Taddese <addisu@openrobotics.org>
+* Contributors: Steve Peters
 
 0.3.0 (2025-04-28)
 ------------------

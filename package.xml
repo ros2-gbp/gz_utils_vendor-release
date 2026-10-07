@@ -10,14 +10,14 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.3.2</version>
+  <version>0.5.2</version>
   <description>
-    Vendor package for: gz-utils3 3.1.1
+    Vendor package for: gz-utils 5.0.0
 
     Gazebo Utils : Classes and functions for robot applications
   </description>
   <maintainer email="addisuzt@intrinsic.ai">Addisu Z. Taddese</maintainer>
-  <license>Apache License 2.0</license>
+  <license>Apache-2.0</license>
   <url type="website">https://github.com/gazebosim/gz-utils</url>
 
   <buildtool_depend>ament_cmake_core</buildtool_depend>
@@ -25,11 +25,13 @@
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
   <buildtool_depend>cmake</buildtool_depend>
+  <build_depend>cli11</build_depend>
+  <exec_depend>cli11</exec_depend>
   <depend>gz_cmake_vendor</depend>
   <depend>spdlog_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
-  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-utils3</depend>
+  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-utils</depend>
 
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>

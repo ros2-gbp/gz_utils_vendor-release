@@ -10,14 +10,14 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.5.1</version>
+  <version>0.5.2</version>
   <description>
     Vendor package for: gz-utils 5.0.0
 
     Gazebo Utils : Classes and functions for robot applications
   </description>
   <maintainer email="addisuzt@intrinsic.ai">Addisu Z. Taddese</maintainer>
-  <license>Apache License 2.0</license>
+  <license>Apache-2.0</license>
   <url type="website">https://github.com/gazebosim/gz-utils</url>
 
   <buildtool_depend>ament_cmake_core</buildtool_depend>
